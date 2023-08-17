@@ -32,7 +32,7 @@
                 <p>I'm a Computer Engineering sophomore at Purdue University; and this is some of my experience and projects that I've done.
                     If you're interested, my resume link is down below.
                 </p>
-                <a href="files/VIET_KHOI_PHAM_KHAC_RESUME.pdf" target="_blank" class="resume">Resume</a>
+                <a href="files/khoi_pham_resume.pdf" target="_blank" class="resume">Resume</a>
             </div>
             <img src="pics/PhamKhac_VietKhoi.JPG" alt="face" width="auto" height="200">    
         </div>
@@ -71,30 +71,35 @@
         <h2>Experience Details</h2>
         
         <div class="card">
-            <h4>Purdue System-on-Chip Extension Technologies (SoCET)</h4>
-            <p><i>PCB Designer</i></p>
+            <h4>Dr. Shalaev Research Group, Birck Nanotechnology center, Purdue University</h4>
+            <p><i>Firmware Developer</i></p>
             <ul>
-                <li>Designed and developed PCBs as test platforms to verify the functionality of and enable real-time communication with fabricated chips using KiCad</li>
-                <li>Added different features to the platform to extensively test SoCET's latest fabricated chip, including FTDI communication and on-chip memory, and adapted to the multiple-signal pins characteristics of the chip</li>
-                <li>Redesigned and improved old platforms to implement better communication with the chip through the use of on-board elements such as ring oscillator, serial-to-USB interface, and multiplexed DIP switches.</li>
-            </ul>
-            <p><i>Digital System Designer</i></p>
-            <ul>
-                <li>Designed and tested a Floating Point Unit that deals with arithmetic operations (addition, subtraction, multiplication) of half-precision floating point unit</li>
-                <li>Designed activation function digital module for AI accelerator hardware with a pipeline design to improve computational speed.</li>
+                <li>Implemented the Python software suite Qudi to remotely control and automate a time-correlated single photon counting and confocal microscopy experiment setup through hardware abstractions</li>
+                <li>Built Python hardware packages for various experimental devices, including mirror galvanometer, laser, linear actuator with proportional-integral-derivative (PID) controller, live camera</li>
+                <li>Contributed to the open-source code of ThorLabs devices based on the APT communications protocol (gitlab.com/ptapping/thorlabs-apt-device)</li>
             </ul>
         </div>
 
         <div class="card">
-            <h4>Purdue University</h4>
-            <p><i>Undergraduate Teaching Assistant</i></p>
+            <h4>Dr. Jung Research Group, Department of Physics and Astronomy, Purdue University</h4>
+            <p><i>Research Assistant</i></p>
             <ul>
-                <li>Help students in ECE 27000 (Introduction to Digital System Design) build and troubleshoot basic digital design with physical circuits and SystemVerilog.</li>
-                <li>Maintain the course' infrastructure, including students database and course' website, using bash shell scripting</li>
-                <li>Developed and tested auto-grading scripts using Python and tremendously cut down labor work</li>
+                <li>Conducted research on algorithms for deterministic embedding of Cartesian product of completely connected graphs on the Pegasus and Zephyr quantum annealing architectures</li>
+                <li>Optimized performance of the D-Wave quantum annealer machine by implementing a more efficient approach for Cartesian product and minor embedding, resulting in using fewer qubits</li>
+                <li>Developed Python code to generate 3D visualizations of Qubits within a quantum annealing machine, providing a comprehensive graphical representation for future lab members</li>
             </ul>
         </div>
-        
+
+        <div class="card">
+            <h4>Elmore Family School of Electrical and Computer Engineering, Purdue University</h4>
+            <p><i>Undergraduate Teaching Assistant</i></p>
+            <ul>
+                <li>Assisted ECE 27000 students (Introduction to Digital System Design) build and troubleshoot basic digital design with physical circuits and SystemVerilog</li>
+                <li>Managed and sustained the infrastructure of the course, which encompassed maintaining the students' database and course website by leveraging expertise in bash shell scripting and JavaScript</li>
+                <li>Developed and tested auto-grading scripts using Python and C++, significantly cut down labor work</li>
+            </ul>
+        </div>
+
         <div class="card">
             <h4>Purdue Summer Undergraduate Research Fellowship (SURF)</h4>
             <p><i>Research Fellow at Chortos Lab</i></p>
@@ -124,6 +129,31 @@
             </ul>
         </div>
 
+    </div>
+    
+    <!-- Projects -->
+    <div class="projects">
+        <h2>Technical Projects</h2>
+        <div class="card">
+            <h4>Purdue System-on-Chip Extension Technologies (SoCET)</h4>
+            <p><i>Digital Hardware Developer & PCB Designer</i></p>
+            <ul>
+                <li>Designed and tested thoroughly a Floating Point Unit with SystemVerilog, specifically catering to arithmetic operations (addition, subtraction, multiplication) of half-precision floating point units</li>
+                <li>Developed an activation function digital module for AI accelerator hardware, employing a pipeline design to significantly enhance computational speed and efficiency</li>
+                <li>Added different features to PCBs test platforms to extensively test SoCET's latest fabricated chip, including FTDI communication and on-chip memory, and adapted to the multiple-signal pins characteristics of the chip</li>
+                <li>Redesigned and improved old platforms to implement better communication with the chip through the use of on-board elements such as ring oscillator, serial-to-USB interface, and multiplexed DIP switches</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h4>ASIC Design Laboratory</h4>
+            <ul>
+                <li>Designed and verified various System-on-Chip (SoC) modules, including a UART receiver, APB-slave UART receiver, and AHB-Lite FIR filter</li>
+                <li>Implemented and verified a USB TX module and a data buffer to handle data packet payloads in a FIFO queue fashion for a USB full-speed bulk-transfer endpoint within an AHB-Lite SoC module</li>
+                <li>Enhanced the USB TX module by incorporating a bit-stuffer mechanism and integrated a 16-bit cyclic redundancy check (CRC) generator</li>
+            </ul>
+        </div>
+
         <div class="card">
             <h4>Purdue Lunabotics</h4>
             <p><i>Power & Hardware Team Member</i></p>
@@ -133,13 +163,8 @@
                 <li>Tested and assessed sensors for the Software team</li>
             </ul>
         </div>
+
     </div>
-    
-    <!-- Projects -->
-    <!-- <div class="projects">
-        <h2>Technical Projects</h2>
-        <div class="card">Under Construction...</div>
-    </div> -->
 
     <!-- Footer -->
     <div class="footer">
